@@ -1,0 +1,536 @@
+[05-May-2025 04:16:19 UTC] getUserProfileImageUrl called with individual parameters: ID=14, role=super_admin, name=Super Admin User
+[05-May-2025 04:16:19 UTC] getUserProfileImageUrl processing user: Super Admin User (ID: 14, Role: super_admin)
+[05-May-2025 04:16:19 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[05-May-2025 04:16:19 UTC] Website root for profile image: /home/core1.moverstaxi.com/public_html/
+[05-May-2025 04:16:19 UTC] Looking for profile images in: uploads/super_admin_profiles/super_admin_user_14/
+[05-May-2025 04:16:19 UTC] User directory does not exist: uploads/super_admin_profiles/super_admin_user_14/
+[05-May-2025 04:16:19 UTC] Looking for profile images in role directory: uploads/super_admin_profiles/
+[05-May-2025 04:16:19 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[05-May-2025 04:16:19 UTC] Looking for profile image: , no driver image
+[05-May-2025 04:16:19 UTC] No image found for user/driver
+[05-May-2025 04:16:19 UTC] No profile image found and default image missing, using hardcoded path
+[05-May-2025 04:16:19 UTC] Profile URL found: assets/img/default_user.jpg
+[05-May-2025 04:16:19 UTC] Expected folder path for user profile: uploads/super_admin_profiles/super admin_user_14/
+[05-May-2025 04:16:19 UTC] Creating new connection to core1_movers (Host: localhost, User: core1_movers)
+[05-May-2025 04:16:19 UTC] Successfully verified 'vehicles' table exists in core1_movers
+[05-May-2025 04:16:19 UTC] Successfully connected to core1_movers
+[05-May-2025 04:16:19 UTC] Creating new connection to core1_movers2
+[05-May-2025 04:16:19 UTC] Successfully connected to core1_movers2
+[05-May-2025 04:16:21 UTC] getUserProfileImageUrl called with individual parameters: ID=14, role=super_admin, name=Super Admin User
+[05-May-2025 04:16:21 UTC] getUserProfileImageUrl processing user: Super Admin User (ID: 14, Role: super_admin)
+[05-May-2025 04:16:21 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[05-May-2025 04:16:21 UTC] Website root for profile image: /home/core1.moverstaxi.com/public_html/
+[05-May-2025 04:16:21 UTC] Looking for profile images in: uploads/super_admin_profiles/super_admin_user_14/
+[05-May-2025 04:16:21 UTC] User directory does not exist: uploads/super_admin_profiles/super_admin_user_14/
+[05-May-2025 04:16:21 UTC] Looking for profile images in role directory: uploads/super_admin_profiles/
+[05-May-2025 04:16:21 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[05-May-2025 04:16:21 UTC] Looking for profile image: , no driver image
+[05-May-2025 04:16:21 UTC] No image found for user/driver
+[05-May-2025 04:16:21 UTC] No profile image found and default image missing, using hardcoded path
+[05-May-2025 04:16:21 UTC] Profile URL found: assets/img/default_user.jpg
+[05-May-2025 04:16:21 UTC] Expected folder path for user profile: uploads/super_admin_profiles/super admin_user_14/
+[05-May-2025 04:16:21 UTC] Loading fleet.php page
+[05-May-2025 04:16:21 UTC] Creating new connection to core1_movers (Host: localhost, User: core1_movers)
+[05-May-2025 04:16:21 UTC] Successfully verified 'vehicles' table exists in core1_movers
+[05-May-2025 04:16:21 UTC] Successfully connected to core1_movers
+[05-May-2025 04:16:21 UTC] Fleet page: Connected to database successfully
+[05-May-2025 04:16:21 UTC] Fleet page executing modified query: SELECT v.*, d.license_number 
+                  FROM vehicles v 
+                  LEFT JOIN drivers d ON v.assigned_driver_id = d.driver_id
+                  ORDER BY v.status, v.model
+[05-May-2025 04:16:21 UTC] Query executed successfully, fetching results
+[05-May-2025 04:16:21 UTC] Successfully fetched 9 vehicles
+[05-May-2025 04:16:22 UTC] getUserProfileImageUrl called with individual parameters: ID=14, role=super_admin, name=Super Admin User
+[05-May-2025 04:16:22 UTC] getUserProfileImageUrl processing user: Super Admin User (ID: 14, Role: super_admin)
+[05-May-2025 04:16:22 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[05-May-2025 04:16:22 UTC] Website root for profile image: /home/core1.moverstaxi.com/public_html/
+[05-May-2025 04:16:22 UTC] Looking for profile images in: uploads/super_admin_profiles/super_admin_user_14/
+[05-May-2025 04:16:22 UTC] User directory does not exist: uploads/super_admin_profiles/super_admin_user_14/
+[05-May-2025 04:16:22 UTC] Looking for profile images in role directory: uploads/super_admin_profiles/
+[05-May-2025 04:16:22 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[05-May-2025 04:16:22 UTC] Looking for profile image: , no driver image
+[05-May-2025 04:16:22 UTC] No image found for user/driver
+[05-May-2025 04:16:22 UTC] No profile image found and default image missing, using hardcoded path
+[05-May-2025 04:16:22 UTC] Profile URL found: assets/img/default_user.jpg
+[05-May-2025 04:16:22 UTC] Expected folder path for user profile: uploads/super_admin_profiles/super admin_user_14/
+[05-May-2025 04:16:22 UTC] Creating new connection to core1_movers2
+[05-May-2025 04:16:22 UTC] Successfully connected to core1_movers2
+[05-May-2025 04:16:24 UTC] getUserProfileImageUrl called with individual parameters: ID=14, role=super_admin, name=Super Admin User
+[05-May-2025 04:16:24 UTC] getUserProfileImageUrl processing user: Super Admin User (ID: 14, Role: super_admin)
+[05-May-2025 04:16:24 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[05-May-2025 04:16:24 UTC] Website root for profile image: /home/core1.moverstaxi.com/public_html/
+[05-May-2025 04:16:24 UTC] Looking for profile images in: uploads/super_admin_profiles/super_admin_user_14/
+[05-May-2025 04:16:24 UTC] User directory does not exist: uploads/super_admin_profiles/super_admin_user_14/
+[05-May-2025 04:16:24 UTC] Looking for profile images in role directory: uploads/super_admin_profiles/
+[05-May-2025 04:16:24 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[05-May-2025 04:16:24 UTC] Looking for profile image: , no driver image
+[05-May-2025 04:16:24 UTC] No image found for user/driver
+[05-May-2025 04:16:24 UTC] No profile image found and default image missing, using hardcoded path
+[05-May-2025 04:16:24 UTC] Profile URL found: assets/img/default_user.jpg
+[05-May-2025 04:16:24 UTC] Expected folder path for user profile: uploads/super_admin_profiles/super admin_user_14/
+[05-May-2025 04:16:24 UTC] Creating new connection to core1_movers2
+[05-May-2025 04:16:24 UTC] Successfully connected to core1_movers2
+[05-May-2025 04:16:24 UTC] getRows called with db=core1, query: SELECT 
+        d.driver_id, d.user_id, d.status as driver_status,
+        u.firstname, u.lastname...
+[05-May-2025 04:16:24 UTC] executeQuery called with db=core1, query: SELECT 
+        d.driver_id, d.user_id, d.status as driver_status,
+        u.firstname, u.lastname...
+[05-May-2025 04:16:24 UTC] Creating new connection to core1_movers (Host: localhost, User: core1_movers)
+[05-May-2025 04:16:24 UTC] Successfully verified 'vehicles' table exists in core1_movers
+[05-May-2025 04:16:24 UTC] Successfully connected to core1_movers
+[05-May-2025 04:16:24 UTC] Query execution failed: SELECT command denied to user 'core1_movers'@'localhost' for table `core1_movers2`.`users`
+[05-May-2025 04:16:24 UTC] executeQuery exception: Query execution failed: SELECT command denied to user 'core1_movers'@'localhost' for table `core1_movers2`.`users`
+[05-May-2025 04:16:24 UTC] getRows exception: Query execution failed: SELECT command denied to user 'core1_movers'@'localhost' for table `core1_movers2`.`users`
+[05-May-2025 04:16:24 UTC] Error fetching available drivers: Query execution failed: SELECT command denied to user 'core1_movers'@'localhost' for table `core1_movers2`.`users`
+[05-May-2025 04:16:24 UTC] getRows called with db=core1, query: SELECT 
+        c.customer_id, c.user_id, c.status as customer_status,
+        u.firstname, u.last...
+[05-May-2025 04:16:24 UTC] executeQuery called with db=core1, query: SELECT 
+        c.customer_id, c.user_id, c.status as customer_status,
+        u.firstname, u.last...
+[05-May-2025 04:16:24 UTC] Query execution failed: SELECT command denied to user 'core1_movers'@'localhost' for table `core1_movers2`.`users`
+[05-May-2025 04:16:24 UTC] executeQuery exception: Query execution failed: SELECT command denied to user 'core1_movers'@'localhost' for table `core1_movers2`.`users`
+[05-May-2025 04:16:24 UTC] getRows exception: Query execution failed: SELECT command denied to user 'core1_movers'@'localhost' for table `core1_movers2`.`users`
+[05-May-2025 04:16:24 UTC] Error fetching active customers: Query execution failed: SELECT command denied to user 'core1_movers'@'localhost' for table `core1_movers2`.`users`
+[05-May-2025 04:37:55 UTC] getUserProfileImageUrl called with individual parameters: ID=14, role=super_admin, name=Super Admin User
+[05-May-2025 04:37:55 UTC] getUserProfileImageUrl processing user: Super Admin User (ID: 14, Role: super_admin)
+[05-May-2025 04:37:55 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[05-May-2025 04:37:55 UTC] Website root for profile image: /home/core1.moverstaxi.com/public_html/
+[05-May-2025 04:37:55 UTC] Looking for profile images in: uploads/super_admin_profiles/super_admin_user_14/
+[05-May-2025 04:37:55 UTC] User directory does not exist: uploads/super_admin_profiles/super_admin_user_14/
+[05-May-2025 04:37:55 UTC] Looking for profile images in role directory: uploads/super_admin_profiles/
+[05-May-2025 04:37:55 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[05-May-2025 04:37:55 UTC] Looking for profile image: , no driver image
+[05-May-2025 04:37:55 UTC] No image found for user/driver
+[05-May-2025 04:37:55 UTC] No profile image found and default image missing, using hardcoded path
+[05-May-2025 04:37:55 UTC] Profile URL found: assets/img/default_user.jpg
+[05-May-2025 04:37:55 UTC] Expected folder path for user profile: uploads/super_admin_profiles/super admin_user_14/
+[05-May-2025 04:37:55 UTC] Creating new connection to core1_movers2
+[05-May-2025 04:37:55 UTC] Successfully connected to core1_movers2
+[05-May-2025 04:37:55 UTC] getRows called with db=core1, query: SELECT 
+        d.driver_id, d.user_id, d.status as driver_status,
+        u.firstname, u.lastname...
+[05-May-2025 04:37:55 UTC] executeQuery called with db=core1, query: SELECT 
+        d.driver_id, d.user_id, d.status as driver_status,
+        u.firstname, u.lastname...
+[05-May-2025 04:37:55 UTC] Creating new connection to core1_movers (Host: localhost, User: core1_movers)
+[05-May-2025 04:37:55 UTC] Successfully verified 'vehicles' table exists in core1_movers
+[05-May-2025 04:37:55 UTC] Successfully connected to core1_movers
+[05-May-2025 04:37:55 UTC] Query execution failed: SELECT command denied to user 'core1_movers'@'localhost' for table `core1_movers2`.`users`
+[05-May-2025 04:37:55 UTC] executeQuery exception: Query execution failed: SELECT command denied to user 'core1_movers'@'localhost' for table `core1_movers2`.`users`
+[05-May-2025 04:37:55 UTC] getRows exception: Query execution failed: SELECT command denied to user 'core1_movers'@'localhost' for table `core1_movers2`.`users`
+[05-May-2025 04:37:55 UTC] Error fetching available drivers: Query execution failed: SELECT command denied to user 'core1_movers'@'localhost' for table `core1_movers2`.`users`
+[05-May-2025 04:37:55 UTC] getRows called with db=core1, query: SELECT 
+        c.customer_id, c.user_id, c.status as customer_status,
+        u.firstname, u.last...
+[05-May-2025 04:37:55 UTC] executeQuery called with db=core1, query: SELECT 
+        c.customer_id, c.user_id, c.status as customer_status,
+        u.firstname, u.last...
+[05-May-2025 04:37:55 UTC] Query execution failed: SELECT command denied to user 'core1_movers'@'localhost' for table `core1_movers2`.`users`
+[05-May-2025 04:37:55 UTC] executeQuery exception: Query execution failed: SELECT command denied to user 'core1_movers'@'localhost' for table `core1_movers2`.`users`
+[05-May-2025 04:37:55 UTC] getRows exception: Query execution failed: SELECT command denied to user 'core1_movers'@'localhost' for table `core1_movers2`.`users`
+[05-May-2025 04:37:55 UTC] Error fetching active customers: Query execution failed: SELECT command denied to user 'core1_movers'@'localhost' for table `core1_movers2`.`users`
+[05-May-2025 04:38:15 UTC] getUserProfileImageUrl called with individual parameters: ID=14, role=super_admin, name=Super Admin User
+[05-May-2025 04:38:15 UTC] getUserProfileImageUrl processing user: Super Admin User (ID: 14, Role: super_admin)
+[05-May-2025 04:38:15 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[05-May-2025 04:38:15 UTC] Website root for profile image: /home/core1.moverstaxi.com/public_html/
+[05-May-2025 04:38:15 UTC] Looking for profile images in: uploads/super_admin_profiles/super_admin_user_14/
+[05-May-2025 04:38:15 UTC] User directory does not exist: uploads/super_admin_profiles/super_admin_user_14/
+[05-May-2025 04:38:15 UTC] Looking for profile images in role directory: uploads/super_admin_profiles/
+[05-May-2025 04:38:15 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[05-May-2025 04:38:15 UTC] Looking for profile image: , no driver image
+[05-May-2025 04:38:15 UTC] No image found for user/driver
+[05-May-2025 04:38:15 UTC] No profile image found and default image missing, using hardcoded path
+[05-May-2025 04:38:15 UTC] Profile URL found: assets/img/default_user.jpg
+[05-May-2025 04:38:15 UTC] Expected folder path for user profile: uploads/super_admin_profiles/super admin_user_14/
+[05-May-2025 04:38:15 UTC] Creating new connection to core1_movers2
+[05-May-2025 04:38:15 UTC] Successfully connected to core1_movers2
+[05-May-2025 04:38:15 UTC] getRows called with db=core1, query: SELECT 
+        d.driver_id, d.user_id, d.status as driver_status,
+        u.firstname, u.lastname...
+[05-May-2025 04:38:15 UTC] executeQuery called with db=core1, query: SELECT 
+        d.driver_id, d.user_id, d.status as driver_status,
+        u.firstname, u.lastname...
+[05-May-2025 04:38:15 UTC] Creating new connection to core1_movers (Host: localhost, User: core1_movers)
+[05-May-2025 04:38:15 UTC] Successfully verified 'vehicles' table exists in core1_movers
+[05-May-2025 04:38:15 UTC] Successfully connected to core1_movers
+[05-May-2025 04:38:15 UTC] Query execution failed: SELECT command denied to user 'core1_movers'@'localhost' for table `core1_movers2`.`users`
+[05-May-2025 04:38:15 UTC] executeQuery exception: Query execution failed: SELECT command denied to user 'core1_movers'@'localhost' for table `core1_movers2`.`users`
+[05-May-2025 04:38:15 UTC] getRows exception: Query execution failed: SELECT command denied to user 'core1_movers'@'localhost' for table `core1_movers2`.`users`
+[05-May-2025 04:38:15 UTC] Error fetching available drivers: Query execution failed: SELECT command denied to user 'core1_movers'@'localhost' for table `core1_movers2`.`users`
+[05-May-2025 04:38:15 UTC] getRows called with db=core1, query: SELECT 
+        c.customer_id, c.user_id, c.status as customer_status,
+        u.firstname, u.last...
+[05-May-2025 04:38:15 UTC] executeQuery called with db=core1, query: SELECT 
+        c.customer_id, c.user_id, c.status as customer_status,
+        u.firstname, u.last...
+[05-May-2025 04:38:15 UTC] Query execution failed: SELECT command denied to user 'core1_movers'@'localhost' for table `core1_movers2`.`users`
+[05-May-2025 04:38:15 UTC] executeQuery exception: Query execution failed: SELECT command denied to user 'core1_movers'@'localhost' for table `core1_movers2`.`users`
+[05-May-2025 04:38:15 UTC] getRows exception: Query execution failed: SELECT command denied to user 'core1_movers'@'localhost' for table `core1_movers2`.`users`
+[05-May-2025 04:38:15 UTC] Error fetching active customers: Query execution failed: SELECT command denied to user 'core1_movers'@'localhost' for table `core1_movers2`.`users`
+[05-May-2025 04:38:55 UTC] getUserProfileImageUrl called with individual parameters: ID=14, role=super_admin, name=Super Admin User
+[05-May-2025 04:38:55 UTC] getUserProfileImageUrl processing user: Super Admin User (ID: 14, Role: super_admin)
+[05-May-2025 04:38:55 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[05-May-2025 04:38:55 UTC] Website root for profile image: /home/core1.moverstaxi.com/public_html/
+[05-May-2025 04:38:55 UTC] Looking for profile images in: uploads/super_admin_profiles/super_admin_user_14/
+[05-May-2025 04:38:55 UTC] User directory does not exist: uploads/super_admin_profiles/super_admin_user_14/
+[05-May-2025 04:38:55 UTC] Looking for profile images in role directory: uploads/super_admin_profiles/
+[05-May-2025 04:38:55 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[05-May-2025 04:38:55 UTC] Looking for profile image: , no driver image
+[05-May-2025 04:38:55 UTC] No image found for user/driver
+[05-May-2025 04:38:55 UTC] No profile image found and default image missing, using hardcoded path
+[05-May-2025 04:38:55 UTC] Profile URL found: assets/img/default_user.jpg
+[05-May-2025 04:38:55 UTC] Expected folder path for user profile: uploads/super_admin_profiles/super admin_user_14/
+[05-May-2025 04:38:55 UTC] Creating new connection to core1_movers (Host: localhost, User: core1_movers)
+[05-May-2025 04:38:55 UTC] Successfully verified 'vehicles' table exists in core1_movers
+[05-May-2025 04:38:55 UTC] Successfully connected to core1_movers
+[05-May-2025 04:38:55 UTC] Creating new connection to core1_movers2
+[05-May-2025 04:38:55 UTC] Successfully connected to core1_movers2
+[06-May-2025 02:21:30 UTC] Creating new connection to core1_movers2
+[06-May-2025 02:21:30 UTC] Successfully connected to core1_movers2
+[06-May-2025 02:21:30 UTC] getUserProfileImageUrl called with individual parameters: ID=14, role=super_admin, name=Super Admin User
+[06-May-2025 02:21:30 UTC] getUserProfileImageUrl processing user: Super Admin User (ID: 14, Role: super_admin)
+[06-May-2025 02:21:30 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 02:21:30 UTC] Website root for profile image: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 02:21:30 UTC] Looking for profile images in: uploads/super_admin_profiles/super_admin_user_14/
+[06-May-2025 02:21:30 UTC] User directory does not exist: uploads/super_admin_profiles/super_admin_user_14/
+[06-May-2025 02:21:30 UTC] Looking for profile images in role directory: uploads/super_admin_profiles/
+[06-May-2025 02:21:30 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 02:21:30 UTC] Looking for profile image: , no driver image
+[06-May-2025 02:21:30 UTC] No image found for user/driver
+[06-May-2025 02:21:30 UTC] No profile image found and default image missing, using hardcoded path
+[06-May-2025 02:21:30 UTC] Profile URL found: assets/img/default_user.jpg
+[06-May-2025 02:21:30 UTC] Expected folder path for user profile: uploads/super_admin_profiles/super admin_user_14/
+[06-May-2025 02:21:30 UTC] Creating new connection to core1_movers (Host: localhost, User: core1_movers)
+[06-May-2025 02:21:30 UTC] Successfully verified 'vehicles' table exists in core1_movers
+[06-May-2025 02:21:30 UTC] Successfully connected to core1_movers
+[06-May-2025 02:21:30 UTC] Creating new connection to core1_movers2
+[06-May-2025 02:21:30 UTC] Successfully connected to core1_movers2
+[06-May-2025 02:21:36 UTC] getUserProfileImageUrl called with individual parameters: ID=14, role=super_admin, name=Super Admin User
+[06-May-2025 02:21:36 UTC] getUserProfileImageUrl processing user: Super Admin User (ID: 14, Role: super_admin)
+[06-May-2025 02:21:36 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 02:21:36 UTC] Website root for profile image: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 02:21:36 UTC] Looking for profile images in: uploads/super_admin_profiles/super_admin_user_14/
+[06-May-2025 02:21:36 UTC] User directory does not exist: uploads/super_admin_profiles/super_admin_user_14/
+[06-May-2025 02:21:36 UTC] Looking for profile images in role directory: uploads/super_admin_profiles/
+[06-May-2025 02:21:36 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 02:21:36 UTC] Looking for profile image: , no driver image
+[06-May-2025 02:21:36 UTC] No image found for user/driver
+[06-May-2025 02:21:36 UTC] No profile image found and default image missing, using hardcoded path
+[06-May-2025 02:21:36 UTC] Profile URL found: assets/img/default_user.jpg
+[06-May-2025 02:21:36 UTC] Expected folder path for user profile: uploads/super_admin_profiles/super admin_user_14/
+[06-May-2025 02:21:36 UTC] Loading fleet.php page
+[06-May-2025 02:21:36 UTC] Creating new connection to core1_movers (Host: localhost, User: core1_movers)
+[06-May-2025 02:21:36 UTC] Successfully verified 'vehicles' table exists in core1_movers
+[06-May-2025 02:21:36 UTC] Successfully connected to core1_movers
+[06-May-2025 02:21:36 UTC] Fleet page: Connected to database successfully
+[06-May-2025 02:21:36 UTC] Fleet page executing modified query: SELECT v.*, d.license_number 
+                  FROM vehicles v 
+                  LEFT JOIN drivers d ON v.assigned_driver_id = d.driver_id
+                  ORDER BY v.status, v.model
+[06-May-2025 02:21:36 UTC] Query executed successfully, fetching results
+[06-May-2025 02:21:36 UTC] Successfully fetched 9 vehicles
+[06-May-2025 02:25:52 UTC] getUserProfileImageUrl called with individual parameters: ID=14, role=super_admin, name=Super Admin User
+[06-May-2025 02:25:52 UTC] getUserProfileImageUrl processing user: Super Admin User (ID: 14, Role: super_admin)
+[06-May-2025 02:25:52 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 02:25:52 UTC] Website root for profile image: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 02:25:52 UTC] Looking for profile images in: uploads/super_admin_profiles/super_admin_user_14/
+[06-May-2025 02:25:52 UTC] User directory does not exist: uploads/super_admin_profiles/super_admin_user_14/
+[06-May-2025 02:25:52 UTC] Looking for profile images in role directory: uploads/super_admin_profiles/
+[06-May-2025 02:25:52 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 02:25:52 UTC] Looking for profile image: , no driver image
+[06-May-2025 02:25:52 UTC] No image found for user/driver
+[06-May-2025 02:25:52 UTC] No profile image found and default image missing, using hardcoded path
+[06-May-2025 02:25:52 UTC] Profile URL found: assets/img/default_user.jpg
+[06-May-2025 02:25:52 UTC] Expected folder path for user profile: uploads/super_admin_profiles/super admin_user_14/
+[06-May-2025 02:25:52 UTC] Creating new connection to core1_movers (Host: localhost, User: core1_movers)
+[06-May-2025 02:25:52 UTC] Successfully verified 'vehicles' table exists in core1_movers
+[06-May-2025 02:25:52 UTC] Successfully connected to core1_movers
+[06-May-2025 02:25:52 UTC] Creating new connection to core1_movers2
+[06-May-2025 02:25:52 UTC] Successfully connected to core1_movers2
+[06-May-2025 02:25:52 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 02:25:52 UTC] Looking for profile image: driver_profiles/jonny_nogie_2/profile_1745500618.png, no driver image
+[06-May-2025 02:25:52 UTC] Found image at: uploads/driver_profiles/jonny_nogie_2/profile_1745500618.png
+[06-May-2025 02:25:52 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 02:25:52 UTC] Looking for profile image: driver_profiles/maria_santos_3/profile_1745500759.png, no driver image
+[06-May-2025 02:25:52 UTC] Found image at: uploads/driver_profiles/maria_santos_3/profile_1745500759.png
+[06-May-2025 02:25:52 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 02:25:52 UTC] Looking for profile image: driver_profiles/ana_gonzales_5/profile_1745565686.png, no driver image
+[06-May-2025 02:25:52 UTC] Found image at: uploads/driver_profiles/ana_gonzales_5/profile_1745565686.png
+[06-May-2025 02:25:52 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 02:25:52 UTC] Looking for profile image: driver_profiles/jose_lim_6/profile_1745503094.png, no driver image
+[06-May-2025 02:25:52 UTC] Found image at: uploads/driver_profiles/jose_lim_6/profile_1745503094.png
+[06-May-2025 02:25:52 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 02:25:52 UTC] Looking for profile image: driver_profiles/dojen_neworth_16/profile_1745506438.png, no driver image
+[06-May-2025 02:25:52 UTC] Found image at: uploads/driver_profiles/dojen_neworth_16/profile_1745506438.png
+[06-May-2025 02:25:52 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 02:25:52 UTC] Looking for profile image: driver_profiles/driverrr_elevenn_22/profile_1745709969.png, no driver image
+[06-May-2025 02:25:52 UTC] Found image at: uploads/driver_profiles/driverrr_elevenn_22/profile_1745709969.png
+[06-May-2025 02:25:52 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 02:25:52 UTC] Looking for profile image: driver_profiles/dan_ige_32/profile_1746290334.png, no driver image
+[06-May-2025 02:25:52 UTC] Image not found at: uploads/driver_profiles/dan_ige_32/profile_1746290334.png or /home/core1.moverstaxi.com/public_html/uploads/driver_profiles/dan_ige_32/profile_1746290334.png
+[06-May-2025 02:25:52 UTC] Image not found at direct path: driver_profiles/dan_ige_32/profile_1746290334.png
+[06-May-2025 02:25:52 UTC] Image not found at: assets/img/users/driver_profiles/dan_ige_32/profile_1746290334.png or /home/core1.moverstaxi.com/public_html/assets/img/users/driver_profiles/dan_ige_32/profile_1746290334.png
+[06-May-2025 02:25:52 UTC] No image found for user/driver
+[06-May-2025 02:25:52 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 02:25:52 UTC] Looking for profile image: driver_profiles/conan_marquez_33/profile_1746208403.png, no driver image
+[06-May-2025 02:25:52 UTC] Image not found at: uploads/driver_profiles/conan_marquez_33/profile_1746208403.png or /home/core1.moverstaxi.com/public_html/uploads/driver_profiles/conan_marquez_33/profile_1746208403.png
+[06-May-2025 02:25:52 UTC] Image not found at direct path: driver_profiles/conan_marquez_33/profile_1746208403.png
+[06-May-2025 02:25:52 UTC] Image not found at: assets/img/users/driver_profiles/conan_marquez_33/profile_1746208403.png or /home/core1.moverstaxi.com/public_html/assets/img/users/driver_profiles/conan_marquez_33/profile_1746208403.png
+[06-May-2025 02:25:52 UTC] No image found for user/driver
+[06-May-2025 02:25:52 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 02:25:52 UTC] Looking for profile image: driver_profiles/pedro_reyes_4/profile_1745565718.png, no driver image
+[06-May-2025 02:25:52 UTC] Found image at: uploads/driver_profiles/pedro_reyes_4/profile_1745565718.png
+[06-May-2025 02:25:59 UTC] getUserProfileImageUrl called with individual parameters: ID=14, role=super_admin, name=Super Admin User
+[06-May-2025 02:25:59 UTC] getUserProfileImageUrl processing user: Super Admin User (ID: 14, Role: super_admin)
+[06-May-2025 02:25:59 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 02:25:59 UTC] Website root for profile image: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 02:25:59 UTC] Looking for profile images in: uploads/super_admin_profiles/super_admin_user_14/
+[06-May-2025 02:25:59 UTC] User directory does not exist: uploads/super_admin_profiles/super_admin_user_14/
+[06-May-2025 02:25:59 UTC] Looking for profile images in role directory: uploads/super_admin_profiles/
+[06-May-2025 02:25:59 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 02:25:59 UTC] Looking for profile image: , no driver image
+[06-May-2025 02:25:59 UTC] No image found for user/driver
+[06-May-2025 02:25:59 UTC] No profile image found and default image missing, using hardcoded path
+[06-May-2025 02:25:59 UTC] Profile URL found: assets/img/default_user.jpg
+[06-May-2025 02:25:59 UTC] Expected folder path for user profile: uploads/super_admin_profiles/super admin_user_14/
+[06-May-2025 02:25:59 UTC] Loading fleet.php page
+[06-May-2025 02:25:59 UTC] Creating new connection to core1_movers (Host: localhost, User: core1_movers)
+[06-May-2025 02:25:59 UTC] Successfully verified 'vehicles' table exists in core1_movers
+[06-May-2025 02:25:59 UTC] Successfully connected to core1_movers
+[06-May-2025 02:25:59 UTC] Fleet page: Connected to database successfully
+[06-May-2025 02:25:59 UTC] Fleet page executing modified query: SELECT v.*, d.license_number 
+                  FROM vehicles v 
+                  LEFT JOIN drivers d ON v.assigned_driver_id = d.driver_id
+                  ORDER BY v.status, v.model
+[06-May-2025 02:25:59 UTC] Query executed successfully, fetching results
+[06-May-2025 02:25:59 UTC] Successfully fetched 9 vehicles
+[06-May-2025 02:26:27 UTC] getUserProfileImageUrl called with individual parameters: ID=14, role=super_admin, name=Super Admin User
+[06-May-2025 02:26:27 UTC] getUserProfileImageUrl processing user: Super Admin User (ID: 14, Role: super_admin)
+[06-May-2025 02:26:27 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 02:26:27 UTC] Website root for profile image: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 02:26:27 UTC] Looking for profile images in: uploads/super_admin_profiles/super_admin_user_14/
+[06-May-2025 02:26:27 UTC] User directory does not exist: uploads/super_admin_profiles/super_admin_user_14/
+[06-May-2025 02:26:27 UTC] Looking for profile images in role directory: uploads/super_admin_profiles/
+[06-May-2025 02:26:27 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 02:26:27 UTC] Looking for profile image: , no driver image
+[06-May-2025 02:26:27 UTC] No image found for user/driver
+[06-May-2025 02:26:27 UTC] No profile image found and default image missing, using hardcoded path
+[06-May-2025 02:26:27 UTC] Profile URL found: assets/img/default_user.jpg
+[06-May-2025 02:26:27 UTC] Expected folder path for user profile: uploads/super_admin_profiles/super admin_user_14/
+[06-May-2025 02:26:27 UTC] Creating new connection to core1_movers (Host: localhost, User: core1_movers)
+[06-May-2025 02:26:27 UTC] Successfully verified 'vehicles' table exists in core1_movers
+[06-May-2025 02:26:27 UTC] Successfully connected to core1_movers
+[06-May-2025 02:26:27 UTC] Creating new connection to core1_movers2
+[06-May-2025 02:26:27 UTC] Successfully connected to core1_movers2
+[06-May-2025 02:26:27 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 02:26:27 UTC] Looking for profile image: driver_profiles/jonny_nogie_2/profile_1745500618.png, no driver image
+[06-May-2025 02:26:27 UTC] Found image at: uploads/driver_profiles/jonny_nogie_2/profile_1745500618.png
+[06-May-2025 02:26:27 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 02:26:27 UTC] Looking for profile image: driver_profiles/maria_santos_3/profile_1745500759.png, no driver image
+[06-May-2025 02:26:27 UTC] Found image at: uploads/driver_profiles/maria_santos_3/profile_1745500759.png
+[06-May-2025 02:26:27 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 02:26:27 UTC] Looking for profile image: driver_profiles/ana_gonzales_5/profile_1745565686.png, no driver image
+[06-May-2025 02:26:27 UTC] Found image at: uploads/driver_profiles/ana_gonzales_5/profile_1745565686.png
+[06-May-2025 02:26:27 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 02:26:27 UTC] Looking for profile image: driver_profiles/jose_lim_6/profile_1745503094.png, no driver image
+[06-May-2025 02:26:27 UTC] Found image at: uploads/driver_profiles/jose_lim_6/profile_1745503094.png
+[06-May-2025 02:26:27 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 02:26:27 UTC] Looking for profile image: driver_profiles/dojen_neworth_16/profile_1745506438.png, no driver image
+[06-May-2025 02:26:27 UTC] Found image at: uploads/driver_profiles/dojen_neworth_16/profile_1745506438.png
+[06-May-2025 02:26:27 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 02:26:27 UTC] Looking for profile image: driver_profiles/driverrr_elevenn_22/profile_1745709969.png, no driver image
+[06-May-2025 02:26:27 UTC] Found image at: uploads/driver_profiles/driverrr_elevenn_22/profile_1745709969.png
+[06-May-2025 02:26:27 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 02:26:27 UTC] Looking for profile image: driver_profiles/dan_ige_32/profile_1746290334.png, no driver image
+[06-May-2025 02:26:27 UTC] Image not found at: uploads/driver_profiles/dan_ige_32/profile_1746290334.png or /home/core1.moverstaxi.com/public_html/uploads/driver_profiles/dan_ige_32/profile_1746290334.png
+[06-May-2025 02:26:27 UTC] Image not found at direct path: driver_profiles/dan_ige_32/profile_1746290334.png
+[06-May-2025 02:26:27 UTC] Image not found at: assets/img/users/driver_profiles/dan_ige_32/profile_1746290334.png or /home/core1.moverstaxi.com/public_html/assets/img/users/driver_profiles/dan_ige_32/profile_1746290334.png
+[06-May-2025 02:26:27 UTC] No image found for user/driver
+[06-May-2025 02:26:27 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 02:26:27 UTC] Looking for profile image: driver_profiles/conan_marquez_33/profile_1746208403.png, no driver image
+[06-May-2025 02:26:27 UTC] Image not found at: uploads/driver_profiles/conan_marquez_33/profile_1746208403.png or /home/core1.moverstaxi.com/public_html/uploads/driver_profiles/conan_marquez_33/profile_1746208403.png
+[06-May-2025 02:26:27 UTC] Image not found at direct path: driver_profiles/conan_marquez_33/profile_1746208403.png
+[06-May-2025 02:26:27 UTC] Image not found at: assets/img/users/driver_profiles/conan_marquez_33/profile_1746208403.png or /home/core1.moverstaxi.com/public_html/assets/img/users/driver_profiles/conan_marquez_33/profile_1746208403.png
+[06-May-2025 02:26:27 UTC] No image found for user/driver
+[06-May-2025 02:26:27 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 02:26:27 UTC] Looking for profile image: driver_profiles/pedro_reyes_4/profile_1745565718.png, no driver image
+[06-May-2025 02:26:27 UTC] Found image at: uploads/driver_profiles/pedro_reyes_4/profile_1745565718.png
+[06-May-2025 02:38:57 UTC] getUserProfileImageUrl called with individual parameters: ID=14, role=super_admin, name=Super Admin User
+[06-May-2025 02:38:57 UTC] getUserProfileImageUrl processing user: Super Admin User (ID: 14, Role: super_admin)
+[06-May-2025 02:38:57 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 02:38:57 UTC] Website root for profile image: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 02:38:57 UTC] Looking for profile images in: uploads/super_admin_profiles/super_admin_user_14/
+[06-May-2025 02:38:57 UTC] User directory does not exist: uploads/super_admin_profiles/super_admin_user_14/
+[06-May-2025 02:38:57 UTC] Looking for profile images in role directory: uploads/super_admin_profiles/
+[06-May-2025 02:38:57 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 02:38:57 UTC] Looking for profile image: , no driver image
+[06-May-2025 02:38:57 UTC] No image found for user/driver
+[06-May-2025 02:38:57 UTC] No profile image found and default image missing, using hardcoded path
+[06-May-2025 02:38:57 UTC] Profile URL found: assets/img/default_user.jpg
+[06-May-2025 02:38:57 UTC] Expected folder path for user profile: uploads/super_admin_profiles/super admin_user_14/
+[06-May-2025 02:38:57 UTC] Creating new connection to core1_movers2
+[06-May-2025 02:38:57 UTC] Successfully connected to core1_movers2
+[06-May-2025 02:39:01 UTC] getUserProfileImageUrl called with individual parameters: ID=14, role=super_admin, name=Super Admin User
+[06-May-2025 02:39:01 UTC] getUserProfileImageUrl processing user: Super Admin User (ID: 14, Role: super_admin)
+[06-May-2025 02:39:01 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 02:39:01 UTC] Website root for profile image: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 02:39:01 UTC] Looking for profile images in: uploads/super_admin_profiles/super_admin_user_14/
+[06-May-2025 02:39:01 UTC] User directory does not exist: uploads/super_admin_profiles/super_admin_user_14/
+[06-May-2025 02:39:01 UTC] Looking for profile images in role directory: uploads/super_admin_profiles/
+[06-May-2025 02:39:01 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 02:39:01 UTC] Looking for profile image: , no driver image
+[06-May-2025 02:39:01 UTC] No image found for user/driver
+[06-May-2025 02:39:01 UTC] No profile image found and default image missing, using hardcoded path
+[06-May-2025 02:39:01 UTC] Profile URL found: assets/img/default_user.jpg
+[06-May-2025 02:39:01 UTC] Expected folder path for user profile: uploads/super_admin_profiles/super admin_user_14/
+[06-May-2025 02:39:01 UTC] Creating new connection to core1_movers (Host: localhost, User: core1_movers)
+[06-May-2025 02:39:01 UTC] Successfully verified 'vehicles' table exists in core1_movers
+[06-May-2025 02:39:01 UTC] Successfully connected to core1_movers
+[06-May-2025 02:39:01 UTC] Creating new connection to core1_movers2
+[06-May-2025 02:39:01 UTC] Successfully connected to core1_movers2
+[06-May-2025 02:39:01 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 02:39:01 UTC] Looking for profile image: driver_profiles/jonny_nogie_2/profile_1745500618.png, no driver image
+[06-May-2025 02:39:01 UTC] Found image at: uploads/driver_profiles/jonny_nogie_2/profile_1745500618.png
+[06-May-2025 02:39:01 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 02:39:01 UTC] Looking for profile image: driver_profiles/maria_santos_3/profile_1745500759.png, no driver image
+[06-May-2025 02:39:01 UTC] Found image at: uploads/driver_profiles/maria_santos_3/profile_1745500759.png
+[06-May-2025 02:39:01 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 02:39:01 UTC] Looking for profile image: driver_profiles/ana_gonzales_5/profile_1745565686.png, no driver image
+[06-May-2025 02:39:01 UTC] Found image at: uploads/driver_profiles/ana_gonzales_5/profile_1745565686.png
+[06-May-2025 02:39:01 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 02:39:01 UTC] Looking for profile image: driver_profiles/jose_lim_6/profile_1745503094.png, no driver image
+[06-May-2025 02:39:01 UTC] Found image at: uploads/driver_profiles/jose_lim_6/profile_1745503094.png
+[06-May-2025 02:39:01 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 02:39:01 UTC] Looking for profile image: driver_profiles/dojen_neworth_16/profile_1745506438.png, no driver image
+[06-May-2025 02:39:01 UTC] Found image at: uploads/driver_profiles/dojen_neworth_16/profile_1745506438.png
+[06-May-2025 02:39:01 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 02:39:01 UTC] Looking for profile image: driver_profiles/driverrr_elevenn_22/profile_1745709969.png, no driver image
+[06-May-2025 02:39:01 UTC] Found image at: uploads/driver_profiles/driverrr_elevenn_22/profile_1745709969.png
+[06-May-2025 02:39:01 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 02:39:01 UTC] Looking for profile image: driver_profiles/dan_ige_32/profile_1746290334.png, no driver image
+[06-May-2025 02:39:01 UTC] Image not found at: uploads/driver_profiles/dan_ige_32/profile_1746290334.png or /home/core1.moverstaxi.com/public_html/uploads/driver_profiles/dan_ige_32/profile_1746290334.png
+[06-May-2025 02:39:01 UTC] Image not found at direct path: driver_profiles/dan_ige_32/profile_1746290334.png
+[06-May-2025 02:39:01 UTC] Image not found at: assets/img/users/driver_profiles/dan_ige_32/profile_1746290334.png or /home/core1.moverstaxi.com/public_html/assets/img/users/driver_profiles/dan_ige_32/profile_1746290334.png
+[06-May-2025 02:39:01 UTC] No image found for user/driver
+[06-May-2025 02:39:01 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 02:39:01 UTC] Looking for profile image: driver_profiles/conan_marquez_33/profile_1746208403.png, no driver image
+[06-May-2025 02:39:01 UTC] Image not found at: uploads/driver_profiles/conan_marquez_33/profile_1746208403.png or /home/core1.moverstaxi.com/public_html/uploads/driver_profiles/conan_marquez_33/profile_1746208403.png
+[06-May-2025 02:39:01 UTC] Image not found at direct path: driver_profiles/conan_marquez_33/profile_1746208403.png
+[06-May-2025 02:39:01 UTC] Image not found at: assets/img/users/driver_profiles/conan_marquez_33/profile_1746208403.png or /home/core1.moverstaxi.com/public_html/assets/img/users/driver_profiles/conan_marquez_33/profile_1746208403.png
+[06-May-2025 02:39:01 UTC] No image found for user/driver
+[06-May-2025 02:39:01 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 02:39:01 UTC] Looking for profile image: driver_profiles/pedro_reyes_4/profile_1745565718.png, no driver image
+[06-May-2025 02:39:01 UTC] Found image at: uploads/driver_profiles/pedro_reyes_4/profile_1745565718.png
+[06-May-2025 02:39:26 UTC] Direct call for driver details detected with ID: 2
+[06-May-2025 02:39:26 UTC] Creating new connection to core1_movers (Host: localhost, User: core1_movers)
+[06-May-2025 02:39:26 UTC] Successfully verified 'vehicles' table exists in core1_movers
+[06-May-2025 02:39:26 UTC] Successfully connected to core1_movers
+[06-May-2025 02:39:26 UTC] Creating new connection to core1_movers2
+[06-May-2025 02:39:26 UTC] Successfully connected to core1_movers2
+[06-May-2025 02:39:26 UTC] ==== getDriverDetails function called ====
+[06-May-2025 02:39:26 UTC] Driver ID found in GET: 2
+[06-May-2025 02:39:26 UTC] Processing driver ID: 2
+[06-May-2025 02:39:26 UTC] Fetching driver details for ID: 2
+[06-May-2025 02:39:26 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 02:39:26 UTC] Looking for profile image: driver_profiles/maria_santos_3/profile_1745500759.png, no driver image
+[06-May-2025 02:39:26 UTC] Found image at (abs): /home/core1.moverstaxi.com/public_html/uploads/driver_profiles/maria_santos_3/profile_1745500759.png
+[06-May-2025 02:39:27 UTC] Creating new connection to core1_movers (Host: localhost, User: core1_movers)
+[06-May-2025 02:39:27 UTC] Successfully verified 'vehicles' table exists in core1_movers
+[06-May-2025 02:39:27 UTC] Successfully connected to core1_movers
+[06-May-2025 02:39:27 UTC] Creating new connection to core1_movers (Host: localhost, User: core1_movers)
+[06-May-2025 02:39:27 UTC] Creating new connection to core1_movers2
+[06-May-2025 02:39:27 UTC] Successfully verified 'vehicles' table exists in core1_movers
+[06-May-2025 02:39:27 UTC] Successfully connected to core1_movers
+[06-May-2025 02:39:27 UTC] Successfully connected to core1_movers2
+[06-May-2025 02:40:57 UTC] getUserProfileImageUrl called with individual parameters: ID=14, role=super_admin, name=Super Admin User
+[06-May-2025 02:40:57 UTC] getUserProfileImageUrl processing user: Super Admin User (ID: 14, Role: super_admin)
+[06-May-2025 02:40:57 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 02:40:57 UTC] Website root for profile image: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 02:40:57 UTC] Looking for profile images in: uploads/super_admin_profiles/super_admin_user_14/
+[06-May-2025 02:40:57 UTC] User directory does not exist: uploads/super_admin_profiles/super_admin_user_14/
+[06-May-2025 02:40:57 UTC] Looking for profile images in role directory: uploads/super_admin_profiles/
+[06-May-2025 02:40:57 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 02:40:57 UTC] Looking for profile image: , no driver image
+[06-May-2025 02:40:57 UTC] No image found for user/driver
+[06-May-2025 02:40:57 UTC] No profile image found and default image missing, using hardcoded path
+[06-May-2025 02:40:57 UTC] Profile URL found: assets/img/default_user.jpg
+[06-May-2025 02:40:57 UTC] Expected folder path for user profile: uploads/super_admin_profiles/super admin_user_14/
+[06-May-2025 02:40:57 UTC] Loading fleet.php page
+[06-May-2025 02:40:57 UTC] Creating new connection to core1_movers (Host: localhost, User: core1_movers)
+[06-May-2025 02:40:57 UTC] Successfully verified 'vehicles' table exists in core1_movers
+[06-May-2025 02:40:57 UTC] Successfully connected to core1_movers
+[06-May-2025 02:40:57 UTC] Fleet page: Connected to database successfully
+[06-May-2025 02:40:57 UTC] Fleet page executing modified query: SELECT v.*, d.license_number 
+                  FROM vehicles v 
+                  LEFT JOIN drivers d ON v.assigned_driver_id = d.driver_id
+                  ORDER BY v.status, v.model
+[06-May-2025 02:40:57 UTC] Query executed successfully, fetching results
+[06-May-2025 02:40:57 UTC] Successfully fetched 9 vehicles
+[06-May-2025 02:41:01 UTC] get_vehicle_details.php called with ID: 2
+[06-May-2025 02:41:01 UTC] Creating new connection to core1_movers (Host: localhost, User: core1_movers)
+[06-May-2025 02:41:01 UTC] Successfully verified 'vehicles' table exists in core1_movers
+[06-May-2025 02:41:01 UTC] Successfully connected to core1_movers
+[06-May-2025 02:41:01 UTC] Checking drivers table structure, has direct name columns: no
+[06-May-2025 02:41:01 UTC] Checking driver_vehicle_history table existence: exists
+[06-May-2025 02:41:01 UTC] Executing vehicle query: SELECT v.*, 
+                                d.license_number,
+                                dvh.assigned_date
+                            FROM vehicles v 
+                            LEFT JOIN drivers d ON v.assigned_driver_id = d.driver_id
+                            LEFT JOIN driver_vehicle_history dvh ON dvh.vehicle_id = v.vehicle_id 
+                                AND dvh.driver_id = v.assigned_driver_id
+                                AND dvh.unassigned_date IS NULL
+                            WHERE v.vehicle_id = ?
+[06-May-2025 05:29:44 UTC] getUserProfileImageUrl called with individual parameters: ID=14, role=super_admin, name=Super Admin User
+[06-May-2025 05:29:44 UTC] getUserProfileImageUrl processing user: Super Admin User (ID: 14, Role: super_admin)
+[06-May-2025 05:29:44 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 05:29:44 UTC] Website root for profile image: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 05:29:44 UTC] Looking for profile images in: uploads/super_admin_profiles/super_admin_user_14/
+[06-May-2025 05:29:44 UTC] User directory does not exist: uploads/super_admin_profiles/super_admin_user_14/
+[06-May-2025 05:29:44 UTC] Looking for profile images in role directory: uploads/super_admin_profiles/
+[06-May-2025 05:29:44 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 05:29:44 UTC] Looking for profile image: , no driver image
+[06-May-2025 05:29:44 UTC] No image found for user/driver
+[06-May-2025 05:29:44 UTC] No profile image found and default image missing, using hardcoded path
+[06-May-2025 05:29:44 UTC] Profile URL found: assets/img/default_user.jpg
+[06-May-2025 05:29:44 UTC] Expected folder path for user profile: uploads/super_admin_profiles/super admin_user_14/
+[06-May-2025 05:29:44 UTC] Loading fleet.php page
+[06-May-2025 05:29:44 UTC] Creating new connection to core1_movers (Host: localhost, User: core1_movers)
+[06-May-2025 05:29:44 UTC] Successfully verified 'vehicles' table exists in core1_movers
+[06-May-2025 05:29:44 UTC] Successfully connected to core1_movers
+[06-May-2025 05:29:44 UTC] Fleet page: Connected to database successfully
+[06-May-2025 05:29:44 UTC] Fleet page executing modified query: SELECT v.*, d.license_number 
+                  FROM vehicles v 
+                  LEFT JOIN drivers d ON v.assigned_driver_id = d.driver_id
+                  ORDER BY v.status, v.model
+[06-May-2025 05:29:44 UTC] Query executed successfully, fetching results
+[06-May-2025 05:29:44 UTC] Successfully fetched 9 vehicles
+[06-May-2025 12:48:47 UTC] Creating new connection to core1_movers2
+[06-May-2025 12:48:47 UTC] Successfully connected to core1_movers2
+[06-May-2025 12:48:48 UTC] getUserProfileImageUrl called with individual parameters: ID=14, role=super_admin, name=Super Admin User
+[06-May-2025 12:48:48 UTC] getUserProfileImageUrl processing user: Super Admin User (ID: 14, Role: super_admin)
+[06-May-2025 12:48:48 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 12:48:48 UTC] Website root for profile image: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 12:48:48 UTC] Looking for profile images in: uploads/super_admin_profiles/super_admin_user_14/
+[06-May-2025 12:48:48 UTC] User directory does not exist: uploads/super_admin_profiles/super_admin_user_14/
+[06-May-2025 12:48:48 UTC] Looking for profile images in role directory: uploads/super_admin_profiles/
+[06-May-2025 12:48:48 UTC] Website root resolved to: /home/core1.moverstaxi.com/public_html/
+[06-May-2025 12:48:48 UTC] Looking for profile image: , no driver image
+[06-May-2025 12:48:48 UTC] No image found for user/driver
+[06-May-2025 12:48:48 UTC] No profile image found and default image missing, using hardcoded path
+[06-May-2025 12:48:48 UTC] Profile URL found: assets/img/default_user.jpg
+[06-May-2025 12:48:48 UTC] Expected folder path for user profile: uploads/super_admin_profiles/super admin_user_14/
+[06-May-2025 12:48:48 UTC] Creating new connection to core1_movers (Host: localhost, User: core1_movers)
+[06-May-2025 12:48:48 UTC] Successfully verified 'vehicles' table exists in core1_movers
+[06-May-2025 12:48:48 UTC] Successfully connected to core1_movers
+[06-May-2025 12:48:48 UTC] Creating new connection to core1_movers2
+[06-May-2025 12:48:48 UTC] Successfully connected to core1_movers2
+[07-May-2025 10:15:24 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "DB_NAME_CORE1" in C:\xampp\htdocs\addthefrontendna\public_html\functions\db.php:70
+Stack trace:
+#0 C:\xampp\htdocs\addthefrontendna\public_html\api\drivers\run_simulation.php(38): connectToCore1DB()
+#1 C:\xampp\htdocs\addthefrontendna\public_html\api\drivers\run_simulation.php(144): simulateDriverLocations()
+#2 {main}
+  thrown in C:\xampp\htdocs\addthefrontendna\public_html\functions\db.php on line 70
+[07-May-2025 12:11:49 Europe/Berlin] simulate_locations.php - Starting execution. Base dir: C:\xampp\htdocs\addthefrontendna\public_html
